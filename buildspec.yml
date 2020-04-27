@@ -1,6 +1,9 @@
 ---
 version: 0.2
 
+env:
+ install:
+   JWT_SECRET: JWT_SECRET
 
 phases:
   install:
